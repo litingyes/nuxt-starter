@@ -1,6 +1,5 @@
 {
   "name": "nuxt-starter",
-  "private": true,
   "description": "A nuxt project startup template",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
