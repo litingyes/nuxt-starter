@@ -11,3 +11,5 @@ dist
 .idea
 
 .stylelintcache
+.vscode/*
+!.vscode/extensions.json
