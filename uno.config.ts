@@ -23,4 +23,9 @@ export default defineConfig({
     transformerDirectives(),
     transformerVariantGroup(),
   ],
+  rules: [
+    ['font-smiley', {
+      'font-family': 'SmileySans',
+    }],
+  ],
 })

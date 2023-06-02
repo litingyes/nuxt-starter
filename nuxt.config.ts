@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/fontaine',
-    '@nuxt/image-edge',
     '@vueuse/nuxt',
     'nuxt-lodash',
   ],
@@ -23,4 +22,8 @@ export default defineNuxtConfig({
     },
     provider: 'ipx',
   },
+  css: [
+    '@unocss/reset/tailwind-compat.css',
+    '@/assets/styles/root.scss',
+  ],
 })
