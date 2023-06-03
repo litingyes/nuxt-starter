@@ -3,6 +3,10 @@
   "description": "A nuxt project startup template",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
+  "homepage": "https://github.com/liting-yes/nuxt-starter#readme",
+  "bugs": {
+    "url": "https://github.com/liting-yes/nuxt-starter/issues"
+  },
   "keywords": [
     "nuxt",
     "template",

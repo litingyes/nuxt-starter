@@ -29,3 +29,5 @@ A nuxt project startup template
   - author
   - license
   - keywords
+  - homepage
+  - bugs
