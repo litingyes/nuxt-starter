@@ -38,7 +38,7 @@
     "@types/node": "^18",
     "@unocss/eslint-config": "^0.53.1",
     "@unocss/nuxt": "^0.53.1",
-    "@unocss/reset": "^0.52.7",
+    "@unocss/reset": "^0.53.1",
     "@vueuse/core": "^10.1.2",
     "@vueuse/nuxt": "^10.1.2",
     "commitizen": "^4.3.0",
