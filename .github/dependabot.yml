@@ -7,6 +7,9 @@ updates:
     allow:
       - dependency-name: '*'
       - dependency-type: all
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
     commit-message:
       prefix: chore
       prefix-development: chore
