@@ -36,7 +36,7 @@
     "@nuxtjs/fontaine": "^0.3.0",
     "@nuxtjs/stylelint-module": "^5.1.0",
     "@types/node": "^18",
-    "@unocss/eslint-config": "^0.53.1",
+    "@unocss/eslint-config": "^0.53.3",
     "@unocss/nuxt": "^0.53.1",
     "@unocss/reset": "^0.53.1",
     "@vueuse/core": "^10.1.2",
