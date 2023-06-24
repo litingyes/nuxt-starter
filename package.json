@@ -28,7 +28,7 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@commitlint/cz-commitlint": "^17.5.0",
-    "@iconify/json": "^2.2.73",
+    "@iconify/json": "^2.2.82",
     "@nuxt/image-edge": "1.0.0-28094330.102af81",
     "@nuxthq/ui": "^2.2.1",
     "@nuxtjs/color-mode": "^3.2.0",
