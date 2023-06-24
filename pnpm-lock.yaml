@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^10.2.0
     version: 10.2.0(vue@3.3.4)
   '@vueuse/nuxt':
-    specifier: ^10.1.2
-    version: 10.1.2(nuxt@3.5.2)(vue@3.3.4)
+    specifier: ^10.2.0
+    version: 10.2.0(nuxt@3.5.2)(vue@3.3.4)
   commitizen:
     specifier: ^4.3.0
     version: 4.3.0
@@ -2674,14 +2674,14 @@ packages:
     resolution: {integrity: sha512-IR7Mkq6QSgZ38q/2ZzOt+Zz1OpcEsnwE64WBumDQ+RGKrosFCtUA2zgRrOqDEzPBXrVB+4HhFkwDjQMu0fDBKw==}
     dev: true
 
-  /@vueuse/nuxt@10.1.2(nuxt@3.5.2)(vue@3.3.4):
-    resolution: {integrity: sha512-X9o5WCmNs1+6XztP1Uh9+H7/jGeIjwSRNQdwCWRKCDkxPlbgi9iLnDRYnKDY++JPY3nbB6jTDOVgZDrpaAU5kg==}
+  /@vueuse/nuxt@10.2.0(nuxt@3.5.2)(vue@3.3.4):
+    resolution: {integrity: sha512-2rtZ5LmARJhUou8AJL1WwNNodinw/pwujVPsred+OuaU6H61t+hK3rQqdS/1Iu8Rw3mFj/dtVKVXOHai0dHMTg==}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
-      '@nuxt/kit': 3.5.2
-      '@vueuse/core': 10.1.2(vue@3.3.4)
-      '@vueuse/metadata': 10.1.2
+      '@nuxt/kit': 3.6.0
+      '@vueuse/core': 10.2.0(vue@3.3.4)
+      '@vueuse/metadata': 10.2.0
       local-pkg: 0.4.3
       nuxt: 3.5.2(@types/node@18.16.18)(eslint@8.41.0)(sass@1.63.6)(stylelint@15.9.0)(typescript@5.1.3)
       vue-demi: 0.14.5(vue@3.3.4)
