@@ -46,7 +46,7 @@
     "inquirer": "8",
     "lint-staged": "^13.2.2",
     "nuxt": "^3.6.0",
-    "nuxt-lodash": "^2.4.1",
+    "nuxt-lodash": "^2.5.0",
     "sass": "^1.63.6",
     "simple-git-hooks": "^2.8.1",
     "stylelint": "^15.9.0",
