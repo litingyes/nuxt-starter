@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.39.4
@@ -18,8 +14,8 @@ devDependencies:
     specifier: ^17.5.0
     version: 17.5.0(commitizen@4.3.0)(inquirer@8.2.5)
   '@iconify/json':
-    specifier: ^2.2.73
-    version: 2.2.73
+    specifier: ^2.2.82
+    version: 2.2.82
   '@nuxt/image-edge':
     specifier: 1.0.0-28094330.102af81
     version: 1.0.0-28094330.102af81
@@ -1058,8 +1054,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify/json@2.2.73:
-    resolution: {integrity: sha512-uwJLVMg811RERYPNYH1OABBZTPnGCk3Kp+sJnZrbXl3urqWCF+ssZM8ER5R/QUr/M/UqCGPFcbn5EpIhFXgRUw==}
+  /@iconify/json@2.2.82:
+    resolution: {integrity: sha512-MBnhpcVZl6Gq0L50+yO1x4t+IWS3jpJUjnelBNHvXgQZ1lhQOmL6q5fIyrkTIBas8XA+tbhWwYe2kdZabNDH8w==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.1
@@ -10330,3 +10326,7 @@ packages:
       compress-commons: 4.1.1
       readable-stream: 3.6.2
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
