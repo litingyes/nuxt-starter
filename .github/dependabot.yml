@@ -3,13 +3,12 @@ updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     allow:
-      - dependency-name: '*'
-      - dependency-type: all
+      - dependency-type: direct
     ignore:
-      - dependency-name: '*'
-        update-types: ['version-update:semver-major']
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     commit-message:
       prefix: chore
       prefix-development: chore
