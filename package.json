@@ -26,7 +26,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.5",
     "@commitlint/cli": "^17.6.5",
-    "@commitlint/config-conventional": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.6",
     "@commitlint/cz-commitlint": "^17.5.0",
     "@iconify/json": "^2.2.82",
     "@nuxt/image-edge": "1.0.0-28101255.bece998",
