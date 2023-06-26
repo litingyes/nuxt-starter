@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.39.5
@@ -44,8 +48,8 @@ devDependencies:
     specifier: ^0.53.3
     version: 0.53.3(postcss@8.4.24)(vite@4.3.9)(webpack@5.85.0)
   '@unocss/reset':
-    specifier: ^0.53.3
-    version: 0.53.3
+    specifier: ^0.53.4
+    version: 0.53.4
   '@vueuse/core':
     specifier: ^10.2.0
     version: 10.2.0(vue@3.3.4)
@@ -2525,6 +2529,10 @@ packages:
 
   /@unocss/reset@0.53.3:
     resolution: {integrity: sha512-DilchevgPVH7Kiiwg/yU8xV6admL/FeV1rwf5sFBEd4THiQSasQXYiqE0e9RyOAF4bJA4c3ZGE9x0cb8T37Fwg==}
+    dev: true
+
+  /@unocss/reset@0.53.4:
+    resolution: {integrity: sha512-NMqntd9CE9EpdtI2ELGCZg9Z2ySMdo/ljepP8QwfRmWbYaXUf3T/GJsOTqewbhNgJUGYinbs1OtiN0yG5xZjJQ==}
     dev: true
 
   /@unocss/scope@0.53.3:
@@ -10608,7 +10616,3 @@ packages:
       compress-commons: 4.1.1
       readable-stream: 3.6.2
     dev: true
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
