@@ -87,8 +87,8 @@ devDependencies:
     specifier: ^12.0.0
     version: 12.0.0(postcss@8.4.24)(stylelint@15.9.0)
   stylelint-config-recommended-vue:
-    specifier: ^1.4.0
-    version: 1.4.0(postcss-html@1.5.0)(stylelint@15.9.0)
+    specifier: ^1.5.0
+    version: 1.5.0(postcss-html@1.5.0)(stylelint@15.9.0)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -8816,14 +8816,6 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.5.1:
-    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /semver@7.5.2:
     resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
     engines: {node: '>=10'}
@@ -9250,15 +9242,15 @@ packages:
       stylelint-scss: 5.0.0(stylelint@15.9.0)
     dev: true
 
-  /stylelint-config-recommended-vue@1.4.0(postcss-html@1.5.0)(stylelint@15.9.0):
-    resolution: {integrity: sha512-DVJqyX2KvMCn9U0+keL12r7xlsH26K4Vg8NrIZuq5MoF7g82DpMp326Om4E0Q+Il1o+bTHuUyejf2XAI0iD04Q==}
+  /stylelint-config-recommended-vue@1.5.0(postcss-html@1.5.0)(stylelint@15.9.0):
+    resolution: {integrity: sha512-65TAK/clUqkNtkZLcuytoxU0URQYlml+30Nhop7sRkCZ/mtWdXt7T+spPSB3KMKlb+82aEVJ4OrcstyDBdbosg==}
     engines: {node: ^12 || >=14}
     peerDependencies:
       postcss-html: ^1.0.0
       stylelint: '>=14.0.0'
     dependencies:
       postcss-html: 1.5.0
-      semver: 7.5.1
+      semver: 7.5.3
       stylelint: 15.9.0
       stylelint-config-html: 1.1.0(postcss-html@1.5.0)(stylelint@15.9.0)
       stylelint-config-recommended: 12.0.0(stylelint@15.9.0)
