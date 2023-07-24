@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0(eslint@8.45.0)(vite@4.3.9)(webpack@5.85.0)
   '@nuxtjs/fontaine':
-    specifier: ^0.4.0
-    version: 0.4.0
+    specifier: ^0.4.1
+    version: 0.4.1
   '@nuxtjs/stylelint-module':
     specifier: ^5.1.0
     version: 5.1.0(postcss@8.4.24)(stylelint@15.10.1)(vite@4.3.9)(webpack@5.85.0)
@@ -1860,12 +1860,12 @@ packages:
       - webpack
     dev: true
 
-  /@nuxtjs/fontaine@0.4.0:
-    resolution: {integrity: sha512-ZGFnp73RCg8weB65Qp0A3d+cWfUyea8OXXgoc61DkDP8+mQ+/mp73wwoy8RMsU5+F60vvx6FkPwiWTJLRMdbAw==}
+  /@nuxtjs/fontaine@0.4.1:
+    resolution: {integrity: sha512-8VnrFYnilfqlQVsCufiqoWusivYVOwP/0Nzu9FV44oryQlBa3qiT7EyOkKSmOxf9yZWCZBRc2wjTSxI+WTYlpg==}
     dependencies:
-      '@nuxt/kit': 3.6.0
+      '@nuxt/kit': 3.6.3
       fontaine: 0.4.0
-      magic-string: 0.30.0
+      magic-string: 0.30.1
       pathe: 1.1.1
       ufo: 1.1.2
     transitivePeerDependencies:
@@ -6674,13 +6674,6 @@ packages:
 
   /magic-string@0.27.0:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
-
-  /magic-string@0.30.0:
-    resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
