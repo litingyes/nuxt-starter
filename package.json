@@ -33,7 +33,7 @@
     "@nuxthq/ui": "^2.5.0",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/fontaine": "^0.4.0",
+    "@nuxtjs/fontaine": "^0.4.1",
     "@nuxtjs/stylelint-module": "^5.1.0",
     "@types/node": "^18",
     "@unocss/eslint-config": "^0.53.5",
