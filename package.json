@@ -27,7 +27,7 @@
     "@antfu/eslint-config": "^0.39.8",
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
-    "@commitlint/cz-commitlint": "^17.5.0",
+    "@commitlint/cz-commitlint": "^17.6.7",
     "@iconify/json": "^2.2.91",
     "@nuxt/image-edge": "1.0.0-28101255.bece998",
     "@nuxthq/ui": "^2.6.0",
