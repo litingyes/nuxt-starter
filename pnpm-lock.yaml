@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^17.6.7
     version: 17.6.7(commitizen@4.3.0)(inquirer@8.2.5)
   '@iconify/json':
-    specifier: ^2.2.94
-    version: 2.2.94
+    specifier: ^2.2.96
+    version: 2.2.96
   '@nuxt/image-edge':
     specifier: 1.0.0-28101255.bece998
     version: 1.0.0-28101255.bece998
@@ -1280,8 +1280,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify/json@2.2.94:
-    resolution: {integrity: sha512-7O+2Dp9h7MI+5dfKxwS/5a4yXgrTBixX8Oy+4QtwMA2EXAJSqBuRYesD8GH3EvcwYHclRjkNM8lgG0TQ24C9eg==}
+  /@iconify/json@2.2.96:
+    resolution: {integrity: sha512-0l8LOn8kiLr8XtJZZhu4hcVyRezU+ntsBgQzjMZaQjcqZ7tfg1KQvD9cuJenz1shIs+VI+7bS2rAhRYjok1mIw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.1
