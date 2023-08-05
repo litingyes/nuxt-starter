@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center pt-16">
-    <div class="prose">
+    <div class="prose dark:prose-invert">
       <h1 class="font-smiley">
         Nuxt Starter
       </h1>
