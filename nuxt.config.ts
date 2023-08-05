@@ -30,4 +30,7 @@ export default defineNuxtConfig({
     global: true,
     icons: 'all',
   },
+  stylelint: {
+    lintOnStart: false,
+  },
 })
