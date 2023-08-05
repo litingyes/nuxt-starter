@@ -12,11 +12,6 @@ A nuxt project startup template
 - @vueuse/nuxt
 - nuxt-lodash
 
-## Features
-
-- code lint with eslint and @antfu/eslint-config
-- commitlint
-
 ## Notice to modify
 
 - README.md

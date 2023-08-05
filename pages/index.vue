@@ -29,11 +29,6 @@
           <li>nuxt-lodash</li>
         </NuxtLink>
       </ul>
-      <h2>Features</h2>
-      <ul>
-        <li>code lint with eslint and @antfu/eslint-config</li>
-        <li>commitlint</li>
-      </ul>
     </div>
   </div>
 </template>
