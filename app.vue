@@ -38,9 +38,9 @@ function switchTheme(e: MouseEvent) {
 </script>
 
 <template>
-  <div class="h-screen  w-screen bg-slate-50 text-slate-900 dark:bg-slate-800 dark:text-slate-100">
+  <div class="h-screen w-screen bg-slate-50 text-slate-900 dark:bg-slate-800 dark:text-slate-100">
     <nav
-      class="fixed flex h-16 w-full items-center justify-between border-b-2 border-solid border-gray-100 px-8 backdrop-blur-md"
+      class="fixed flex h-16 w-full items-center justify-between border-b-2 border-solid border-slate-200 px-8 backdrop-blur-md dark:border-slate-700"
       dark="border-slate-700"
     >
       <NuxtLink to="/">
