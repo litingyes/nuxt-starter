@@ -7,20 +7,14 @@
       <p>A nuxt project startup template</p>
       <h2>Installed Modules</h2>
       <ul>
-        <NuxtLink to="https://nuxt.com/modules/eslint" target="__blank">
-          <li>@nuxtjs/eslint-module</li>
-        </NuxtLink>
-        <NuxtLink to="https://nuxt.com/modules/unocss" target="__blank">
-          <li>@unocss/nuxt</li>
-        </NuxtLink>
-        <NuxtLink to="https://nuxt.com/modules/image" target="__blank">
-          <li>@nuxt/image-edge</li>
-        </NuxtLink>
         <NuxtLink to="https://nuxt.com/modules/nuxtlabs-ui" target="__blank">
           <li>@nuxthq/ui</li>
         </NuxtLink>
-        <NuxtLink to="https://nuxt.com/modules/color-mode" target="__blank">
-          <li>@nuxtjs/color-mode</li>
+        <NuxtLink to="https://nuxt.com/modules/eslint" target="__blank">
+          <li>@nuxtjs/eslint-module</li>
+        </NuxtLink>
+        <NuxtLink to="https://nuxt.com/modules/image" target="__blank">
+          <li>@nuxt/image-edge</li>
         </NuxtLink>
         <NuxtLink to="https://nuxt.com/modules/stylelint" target="__blank">
           <li>@nuxtjs/stylelint-module</li>

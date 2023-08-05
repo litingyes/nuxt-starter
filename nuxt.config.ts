@@ -1,19 +1,16 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/eslint-module',
-    '@unocss/nuxt',
     '@nuxt/image-edge',
     '@nuxthq/ui',
-    '@nuxtjs/color-mode',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/fontaine',
     '@vueuse/nuxt',
     'nuxt-lodash',
     '@nuxt/devtools',
   ],
-  colorMode: {
-    storageKey: 'nuxt-color-mode',
+  eslint: {
+    lintOnStart: false,
   },
   image: {
     screens: {
@@ -24,10 +21,13 @@ export default defineNuxtConfig({
     provider: 'ipx',
   },
   css: [
-    '@unocss/reset/tailwind-compat.css',
     '@/assets/styles/root.scss',
   ],
   devtools: {
     enabled: true,
+  },
+  ui: {
+    global: true,
+    icons: 'all',
   },
 })

@@ -4,11 +4,9 @@ A nuxt project startup template
 
 ## Installed Modules
 
-- @nuxtjs/eslint-module
-- @unocss/nuxt
-- @nuxt/image-edge
 - @nuxthq/ui
-- @nuxtjs/color-mode
+- @nuxtjs/eslint-module
+- @nuxt/image-edge
 - @nuxtjs/stylelint-module
 - @nuxtjs/fontaine
 - @vueuse/nuxt
