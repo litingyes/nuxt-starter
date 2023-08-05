@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/fontaine',
     '@vueuse/nuxt',
     'nuxt-lodash',
+    '@nuxt/devtools',
   ],
   colorMode: {
     storageKey: 'nuxt-color-mode',
@@ -26,4 +27,7 @@ export default defineNuxtConfig({
     '@unocss/reset/tailwind-compat.css',
     '@/assets/styles/root.scss',
   ],
+  devtools: {
+    enabled: true,
+  },
 })
