@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     provider: 'ipx',
   },
   css: [
-    '@/assets/styles/root.scss',
+    '@/assets/styles/base.scss',
   ],
   devtools: {
     enabled: true,
