@@ -31,7 +31,7 @@
     "@iconify/json": "^2.2.96",
     "@nuxt/devtools": "^0.7.4",
     "@nuxt/image-edge": "1.0.0-28101255.bece998",
-    "@nuxthq/ui": "^2.6.0",
+    "@nuxthq/ui": "^2.7.0",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/fontaine": "^0.4.1",
     "@nuxtjs/stylelint-module": "^5.1.0",
