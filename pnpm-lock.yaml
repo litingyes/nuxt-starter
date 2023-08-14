@@ -4411,7 +4411,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.4
     optionalDependencies:
-      '@commitlint/load': 17.6.7
+      '@commitlint/load': 17.7.1
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
