@@ -45,7 +45,7 @@
     "lint-staged": "^13.3.0",
     "nuxt": "^3.7.3",
     "nuxt-lodash": "^2.5.0",
-    "sass": "^1.66.1",
+    "sass": "^1.67.0",
     "simple-git-hooks": "^2.9.0",
     "stylelint": "^15.10.3",
     "stylelint-config-recommended-scss": "^12.0.0",
