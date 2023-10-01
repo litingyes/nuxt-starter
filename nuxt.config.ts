@@ -1,7 +1,6 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/eslint-module',
-    '@nuxt/image-edge',
     '@nuxthq/ui',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/fontaine',
@@ -11,14 +10,6 @@ export default defineNuxtConfig({
   ],
   eslint: {
     lintOnStart: false,
-  },
-  image: {
-    screens: {
-      sm: 676,
-      md: 960,
-      lg: 1440,
-    },
-    provider: 'ipx',
   },
   css: [
     '@/assets/styles/base.scss',
