@@ -28,7 +28,7 @@
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@commitlint/cz-commitlint": "^17.7.1",
-    "@iconify/json": "^2.2.120",
+    "@iconify/json": "^2.2.123",
     "@nuxt/devtools": "^0.8.5",
     "@nuxthq/ui": "^2.7.0",
     "@nuxtjs/eslint-module": "^4.1.0",
