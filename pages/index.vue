@@ -20,10 +20,6 @@ const list = [
     link: 'https://nuxt.com/modules/eslint',
   },
   {
-    label: '@nuxt/image-edge',
-    link: 'https://nuxt.com/modules/image',
-  },
-  {
     label: '@nuxtjs/stylelint-module',
     link: 'https://nuxt.com/modules/stylelint',
   },

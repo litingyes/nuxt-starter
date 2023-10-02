@@ -6,7 +6,6 @@ A nuxt project startup template
 
 - @nuxthq/ui
 - @nuxtjs/eslint-module
-- @nuxt/image-edge
 - @nuxtjs/stylelint-module
 - @nuxtjs/fontaine
 - @vueuse/nuxt
