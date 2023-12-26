@@ -20,7 +20,7 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint . && stylelint \"**/*.{css,scss}\"",
     "format": "eslint --fix . && stylelint --fix \"**/*.{css,scss}\"",
-    "commit": "git add . && git-cz",
+    "commit": "git-cz",
     "prepare": "npx simple-git-hooks"
   },
   "devDependencies": {
