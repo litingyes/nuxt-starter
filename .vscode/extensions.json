@@ -4,6 +4,7 @@
     "vue.vscode-typescript-vue-plugin",
     "ms-vscode.vscode-typescript-next",
     "dbaeumer.vscode-eslint",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
