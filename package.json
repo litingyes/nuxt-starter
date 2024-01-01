@@ -42,7 +42,7 @@
     "eslint-plugin-tailwindcss": "^3.13.1",
     "inquirer": "8",
     "lint-staged": "^13.3.0",
-    "nuxt": "^3.8.1",
+    "nuxt": "^3.8.2",
     "nuxt-lodash": "^2.5.0",
     "sass": "^1.69.6",
     "simple-git-hooks": "^2.9.0",
