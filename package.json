@@ -39,7 +39,7 @@
     "@vueuse/nuxt": "^10.6.1",
     "commitizen": "^4.3.0",
     "eslint": "^8.50.0",
-    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-tailwindcss": "^3.13.1",
     "inquirer": "8",
     "lint-staged": "^13.3.0",
     "nuxt": "^3.8.1",
