@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^17.7.2
     version: 17.8.1(commitizen@4.3.0)(inquirer@8.2.6)
   '@iconify/json':
-    specifier: ^2.2.187
-    version: 2.2.187
+    specifier: ^2.2.189
+    version: 2.2.189
   '@nuxt/devtools':
     specifier: ^0.8.5
     version: 0.8.5(nuxt@3.8.2)(vite@4.5.2)
@@ -1387,8 +1387,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify/json@2.2.187:
-    resolution: {integrity: sha512-s2YGP9Nuz1x4xAQq78Y6TZFqGZ8wUO7YlOdbqjwoMgmwJPhEhUrxLs2S17im1rG5g9TzAQsYzt4vsSlgCmoKDA==}
+  /@iconify/json@2.2.189:
+    resolution: {integrity: sha512-q0DxpGQuQhtoNXELlHKbkxTSOjuzf/3Qaqq5uuJ/dM62XH1GUUxlXsgH/Moh/CEcs3evzWFp2mjIQifZmihQTA==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
