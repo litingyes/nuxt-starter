@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^17.7.2
     version: 17.8.1(commitizen@4.3.0)(inquirer@8.2.6)
   '@iconify/json':
-    specifier: ^2.2.212
-    version: 2.2.212
+    specifier: ^2.2.214
+    version: 2.2.214
   '@nuxt/devtools':
     specifier: ^0.8.5
     version: 0.8.5(nuxt@3.8.2)(vite@4.5.3)
@@ -1387,8 +1387,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify/json@2.2.212:
-    resolution: {integrity: sha512-d1IXjpbSwk8V3C9D+mruRTJRPqZZpCnOWh9zyG/Zc5zJmPDLBEHNTKz+ZmeiJQ6LdzgjwLJai1WgFvt1HWVIPw==}
+  /@iconify/json@2.2.214:
+    resolution: {integrity: sha512-EVdAczIPBz1gcXVSHrEe0vBl6x4lcG7Dw95tO0o/h2SPTXKigEvV1cufe8yFFNuBHKqv/n1XTwqCZX0ontKTtw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -3544,12 +3544,12 @@ packages:
       negotiator: 0.6.3
     dev: true
 
-  /acorn-import-assertions@1.9.0(acorn@8.11.2):
+  /acorn-import-assertions@1.9.0(acorn@8.11.3):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
     peerDependencies:
       acorn: ^8
     dependencies:
-      acorn: 8.11.2
+      acorn: 8.11.3
     dev: true
 
   /acorn-jsx@5.3.2(acorn@8.11.2):
@@ -11297,8 +11297,8 @@ packages:
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/wasm-edit': 1.11.6
       '@webassemblyjs/wasm-parser': 1.11.6
-      acorn: 8.11.2
-      acorn-import-assertions: 1.9.0(acorn@8.11.2)
+      acorn: 8.11.3
+      acorn-import-assertions: 1.9.0(acorn@8.11.3)
       browserslist: 4.22.1
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.15.0
