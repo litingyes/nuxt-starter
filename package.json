@@ -29,7 +29,7 @@
     "@commitlint/config-conventional": "^17.7.0",
     "@commitlint/cz-commitlint": "^17.7.2",
     "@iconify/json": "^2.2.238",
-    "@nuxt/devtools": "^1.3.9",
+    "@nuxt/devtools": "^1.3.14",
     "@nuxthq/ui": "^2.7.0",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/fontaine": "^0.4.3",
