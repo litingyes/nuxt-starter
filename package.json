@@ -37,7 +37,7 @@
     "@types/node": "^18",
     "@vueuse/core": "^10.6.1",
     "@vueuse/nuxt": "^10.6.1",
-    "commitizen": "^4.3.0",
+    "commitizen": "^4.3.1",
     "eslint": "^8.50.0",
     "eslint-plugin-tailwindcss": "^3.13.1",
     "inquirer": "8",
