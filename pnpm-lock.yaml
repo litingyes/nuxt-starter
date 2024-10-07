@@ -21,8 +21,8 @@ importers:
         specifier: ^17.7.2
         version: 17.8.1(commitizen@4.3.1(typescript@5.2.2))(inquirer@8.2.6)
       '@iconify/json':
-        specifier: ^2.2.254
-        version: 2.2.254
+        specifier: ^2.2.257
+        version: 2.2.257
       '@nuxt/devtools':
         specifier: ^1.3.14
         version: 1.3.14(rollup@4.9.2)(vite@4.5.3(@types/node@18.18.14)(sass@1.69.7)(terser@5.24.0))
@@ -832,8 +832,8 @@ packages:
   '@iconify-json/heroicons@1.1.13':
     resolution: {integrity: sha512-WsRTTc0qGDreszIgL9uVpPSnRlM2bXaKmK3E0zpQZloUZQX3FokDqGFgc0UbJ+8np/ta571Ty+8n78mlMhEU8w==}
 
-  '@iconify/json@2.2.254':
-    resolution: {integrity: sha512-Czl0QoUY6339X+VovtTmsguvBTbkT//IdO9CTIz9nUwpWE23cf0yKydoAsQpa1i3cxGI+03ytmaTQqwivFYumg==}
+  '@iconify/json@2.2.257':
+    resolution: {integrity: sha512-IqjXD7BrtORxEK1eRq77550zMztRnwTn8Qyid+WuGspYP+wn5PUEoNPvF3bOJkWiq14QqPphi339nEKuomgR2A==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2826,6 +2826,7 @@ packages:
   eslint@8.53.0:
     resolution: {integrity: sha512-N4VuiPjXDUa4xVeV/GC/RV3hQW9Nw+Y463lkWaKKXKYMvmRiRDAtfpuPFLN+E1/6ZhyR8J2ig+eVREnYgUsiag==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -6665,7 +6666,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify/json@2.2.254':
+  '@iconify/json@2.2.257':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
