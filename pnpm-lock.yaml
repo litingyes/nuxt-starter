@@ -21,8 +21,8 @@ importers:
         specifier: ^17.7.2
         version: 17.8.1(commitizen@4.3.1(typescript@5.2.2))(inquirer@8.2.6)
       '@iconify/json':
-        specifier: ^2.2.265
-        version: 2.2.265
+        specifier: ^2.2.267
+        version: 2.2.267
       '@nuxt/devtools':
         specifier: ^1.3.14
         version: 1.3.14(rollup@4.24.0)(vite@5.4.8(@types/node@18.18.14)(sass@1.69.7)(terser@5.24.0))
@@ -1004,8 +1004,8 @@ packages:
   '@iconify-json/heroicons@1.1.13':
     resolution: {integrity: sha512-WsRTTc0qGDreszIgL9uVpPSnRlM2bXaKmK3E0zpQZloUZQX3FokDqGFgc0UbJ+8np/ta571Ty+8n78mlMhEU8w==}
 
-  '@iconify/json@2.2.265':
-    resolution: {integrity: sha512-pTM0S5o1DsNgqdNptL5b82DLA/ez7YM2TuS7D/t6EwTI54n5zUUxaT3hfZ86TEqwTjVBcAD7QaDcXGTWBF1m6Q==}
+  '@iconify/json@2.2.267':
+    resolution: {integrity: sha512-mM+W8HES8J78wNFRWimpfT+D2YhLzZ9AKD/PiDqiW/QsMmROa2iK0Bx+RwTYYWosmRCzPXPH9y08X4VgfkqZuw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -7024,7 +7024,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify/json@2.2.265':
+  '@iconify/json@2.2.267':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
