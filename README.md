@@ -5,8 +5,6 @@ A nuxt project startup template
 ## Installed Modules
 
 - @nuxthq/ui
-- @nuxtjs/eslint-module
-- @nuxtjs/stylelint-module
 - @nuxtjs/fontaine
 - @vueuse/nuxt
 - nuxt-lodash

@@ -20,10 +20,6 @@ const list = [
     link: 'https://nuxt.com/modules/eslint',
   },
   {
-    label: '@nuxtjs/stylelint-module',
-    link: 'https://nuxt.com/modules/stylelint',
-  },
-  {
     label: '@nuxtjs/fontaine',
     link: 'https://nuxt.com/modules/fontaine',
   },

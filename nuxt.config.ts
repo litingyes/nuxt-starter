@@ -1,30 +1,35 @@
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/eslint-module',
     '@nuxthq/ui',
-    '@nuxtjs/stylelint-module',
     '@nuxtjs/fontaine',
     '@vueuse/nuxt',
     'nuxt-lodash',
     '@nuxt/devtools',
+    '@nuxt/eslint',
   ],
-  eslint: {
-    lintOnStart: false,
-  },
+
   css: [
     '@/assets/styles/base.scss',
   ],
+
   devtools: {
     enabled: true,
   },
+
   ui: {
     global: true,
     icons: 'all',
   },
-  stylelint: {
-    lintOnStart: false,
-  },
+
   tailwindcss: {
     cssPath: '~/assets/styles/tailwind.css',
   },
+
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
+
+  compatibilityDate: '2025-01-09',
 })

@@ -1,15 +1,29 @@
 @font-face {
-  font-family: "LXGW";
-  src: url("../fonts/LXGWWenKaiGBScreenR.ttf") format("truetype");
+  font-family: 'LXGW';
+  src: url('../fonts/LXGWWenKaiGBScreenR.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "SmileySans";
-  src: url("../fonts//SmileySans-Oblique.ttf") format("truetype");
+  font-family: 'SmileySans';
+  src: url('../fonts//SmileySans-Oblique.ttf') format('truetype');
 }
 
 :root {
-  font-family: "LXGW", ui-sans-serif, "ui-sans-serif override", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
+  font-family:
+    'LXGW',
+    ui-sans-serif,
+    'ui-sans-serif override',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    'Noto Sans',
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    'Noto Color Emoji';
 }

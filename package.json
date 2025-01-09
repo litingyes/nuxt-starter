@@ -1,5 +1,6 @@
 {
   "name": "nuxt-starter",
+  "type": "module",
   "description": "A nuxt project startup template",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
@@ -18,37 +19,34 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint . && stylelint \"**/*.{css,scss}\"",
-    "format": "eslint --fix . && stylelint --fix \"**/*.{css,scss}\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "commit": "git-cz",
     "prepare": "npx simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.43.1",
+    "@antfu/eslint-config": "^3.13.0",
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
     "@commitlint/cz-commitlint": "^17.7.2",
     "@iconify/json": "^2.2.292",
     "@nuxt/devtools": "^1.3.14",
+    "@nuxt/eslint": "^0.7.5",
     "@nuxthq/ui": "^2.7.0",
-    "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/fontaine": "^0.4.4",
-    "@nuxtjs/stylelint-module": "^5.1.0",
     "@types/node": "^18",
     "@vueuse/core": "^10.6.1",
     "@vueuse/nuxt": "^10.6.1",
     "commitizen": "^4.3.1",
-    "eslint": "^8.50.0",
-    "eslint-plugin-tailwindcss": "^3.13.1",
+    "eslint": "^9.17.0",
+    "eslint-plugin-format": "^1.0.1",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "inquirer": "8",
     "lint-staged": "^13.3.0",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.15.1",
     "nuxt-lodash": "^2.5.0",
     "sass": "^1.69.7",
     "simple-git-hooks": "^2.9.0",
-    "stylelint": "^15.10.3",
-    "stylelint-config-recommended-scss": "^12.0.0",
-    "stylelint-config-recommended-vue": "^1.5.0",
     "typescript": "^5.2.2"
   },
   "config": {
@@ -65,6 +63,6 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*.{ts,vue,json,md}": "eslint --fix"
+    "*": "eslint --fix"
   }
 }
