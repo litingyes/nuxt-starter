@@ -40,8 +40,8 @@ importers:
         specifier: 3.5.2
         version: 3.5.2(magicast@0.3.5)(rollup@4.30.1)
       '@nuxtjs/tailwindcss':
-        specifier: ^6.12.2
-        version: 6.12.2(magicast@0.3.5)(rollup@4.30.1)(ts-node@10.9.1(@types/node@20.5.1)(typescript@5.2.2))
+        specifier: 6.13.0-20241225-182546-3a7a8a0
+        version: 6.13.0-20241225-182546-3a7a8a0(magicast@0.3.5)(rollup@4.30.1)(ts-node@10.9.1(@types/node@18.18.14)(typescript@5.2.2))
       '@primevue/nuxt-module':
         specifier: ^4.2.5
         version: 4.2.5(@babel/parser@7.26.3)(magicast@0.3.5)(rollup@4.30.1)(vue@3.5.13(typescript@5.2.2))
@@ -1101,8 +1101,8 @@ packages:
   '@nuxtjs/color-mode@3.5.2':
     resolution: {integrity: sha512-cC6RfgZh3guHBMLLjrBB2Uti5eUoGM9KyauOaYS9ETmxNWBMTvpgjvSiSJp1OFljIXPIqVTJ3xtJpSNZiO3ZaA==}
 
-  '@nuxtjs/tailwindcss@6.12.2':
-    resolution: {integrity: sha512-qPJiFH67CkTj/2kBGBzqXihOD1rQXMsbVS4vdQvfBxOBLPfGhU1yw7AATdhPl2BBjO2krjJLuZj39t7dnDYOwg==}
+  '@nuxtjs/tailwindcss@6.13.0-20241225-182546-3a7a8a0':
+    resolution: {integrity: sha512-cHa62JUGkg++Oqv6vKUBhB7fecvi2ifjtMEq4bMK0sl9ox9QZpgsWRH1xg2NeeCvHusBxwBvMcIpuJPGbKM1kA==}
 
   '@parcel/watcher-android-arm64@2.5.0':
     resolution: {integrity: sha512-qlX4eS28bUcQCdribHkg/herLe+0A9RyYC+mm2PXpncit8z5b3nSqGVzMNR3CmtAOgRutiZ02eIJJgP/b1iEFQ==}
@@ -7246,10 +7246,11 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxtjs/tailwindcss@6.12.2(magicast@0.3.5)(rollup@4.30.1)(ts-node@10.9.1(@types/node@20.5.1)(typescript@5.2.2))':
+  '@nuxtjs/tailwindcss@6.13.0-20241225-182546-3a7a8a0(magicast@0.3.5)(rollup@4.30.1)(ts-node@10.9.1(@types/node@18.18.14)(typescript@5.2.2))':
     dependencies:
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.30.1)
       autoprefixer: 10.4.20(postcss@8.4.49)
+      c12: 2.0.1(magicast@0.3.5)
       consola: 3.3.3
       defu: 6.1.4
       h3: 1.13.0

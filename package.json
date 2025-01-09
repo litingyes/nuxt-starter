@@ -37,7 +37,7 @@
     "@iconify/tailwind": "^1.2.0",
     "@nuxt/eslint": "^0.7.5",
     "@nuxtjs/color-mode": "3.5.2",
-    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@nuxtjs/tailwindcss": "6.13.0-20241225-182546-3a7a8a0",
     "@primevue/nuxt-module": "^4.2.5",
     "@types/node": "^18",
     "@vueuse/core": "^10.6.1",
