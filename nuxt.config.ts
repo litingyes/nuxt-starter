@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@primevue/nuxt-module',
     '@nuxtjs/color-mode',
+    '@nuxt/icon',
   ],
 
   devtools: {
