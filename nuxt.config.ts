@@ -2,7 +2,6 @@ import Aura from '@primevue/themes/aura'
 
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/fontaine',
     '@vueuse/nuxt',
     'nuxt-lodash',
     '@nuxt/devtools',

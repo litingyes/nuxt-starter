@@ -1,18 +1,6 @@
 <script lang="ts" setup>
 const list = [
   {
-    label: '@nuxthq/ui',
-    link: 'https://nuxt.com/modules/nuxtlabs-ui',
-  },
-  {
-    label: '@nuxtjs/eslint-module',
-    link: 'https://nuxt.com/modules/eslint',
-  },
-  {
-    label: '@nuxtjs/fontaine',
-    link: 'https://nuxt.com/modules/fontaine',
-  },
-  {
     label: '@vueuse/nuxt',
     link: 'https://nuxt.com/modules/vueuse',
   },
