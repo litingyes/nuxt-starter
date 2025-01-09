@@ -1,9 +1,9 @@
 import type { Config } from 'tailwindcss'
 
 export default <Partial<Config>>{
+  content: [],
   theme: {
-    fontFamily: {
-      smiley: ['SmileySans'],
-    },
+    extend: {},
   },
+  plugins: [],
 }

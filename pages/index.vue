@@ -1,15 +1,4 @@
 <script lang="ts" setup>
-const colorMode = useColorMode()
-const isDark = computed({
-  get: () => colorMode.value === 'dark',
-  set: (val) => {
-    if (val)
-      colorMode.value = 'dark'
-    else
-      colorMode.value = 'light'
-  },
-})
-
 const list = [
   {
     label: '@nuxthq/ui',
@@ -37,13 +26,9 @@ const list = [
 <template>
   <div class="flex justify-center pt-16">
     <div class="prose dark:prose-invert">
-      <h1 class="font-smiley">
+      <h1>
         Nuxt Starter
       </h1>
-      <UToggle
-        v-model="isDark" off-icon="i-material-symbols-light-mode-outline"
-        on-icon="i-material-symbols-dark-mode-outline"
-      />
       <p>A nuxt project startup template</p>
       <h2>Installed Modules</h2>
       <ul>

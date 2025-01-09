@@ -4,7 +4,6 @@ A nuxt project startup template
 
 ## Installed Modules
 
-- @nuxthq/ui
 - @nuxtjs/fontaine
 - @vueuse/nuxt
 - nuxt-lodash

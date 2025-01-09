@@ -1,28 +1,19 @@
+import Aura from '@primevue/themes/aura'
+
 export default defineNuxtConfig({
   modules: [
-    '@nuxthq/ui',
     '@nuxtjs/fontaine',
     '@vueuse/nuxt',
     'nuxt-lodash',
     '@nuxt/devtools',
     '@nuxt/eslint',
-  ],
-
-  css: [
-    '@/assets/styles/base.scss',
+    '@nuxtjs/tailwindcss',
+    '@primevue/nuxt-module',
+    '@nuxtjs/color-mode',
   ],
 
   devtools: {
     enabled: true,
-  },
-
-  ui: {
-    global: true,
-    icons: 'all',
-  },
-
-  tailwindcss: {
-    cssPath: '~/assets/styles/tailwind.css',
   },
 
   eslint: {
@@ -31,5 +22,12 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2025-01-09',
+  primevue: {
+    options: {
+      theme: {
+        preset: Aura,
+      },
+    },
+  },
+
 })
