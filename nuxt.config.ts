@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
     'nuxt-lodash',
-    '@nuxt/devtools',
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
     '@primevue/nuxt-module',
@@ -29,4 +28,5 @@ export default defineNuxtConfig({
     },
   },
 
+  compatibilityDate: '2025-01-09',
 })
