@@ -23,10 +23,24 @@ export default defineNuxtConfig({
 
   primevue: {
     options: {
+      ripple: true,
       theme: {
         preset: Aura,
+        options: {
+          cssLayer: {
+            name: 'primevue',
+            order: 'tailwind-base, primevue, tailwind-utilities',
+          },
+          darkModeSelector: '.dark-mode',
+        },
       },
     },
+    autoImport: true,
+  },
+
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
   },
 
   compatibilityDate: '2025-01-09',

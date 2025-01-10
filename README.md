@@ -2,11 +2,12 @@
 
 A nuxt project startup template
 
-## Installed Modules
+## Modules
 
-- @nuxtjs/fontaine
-- @vueuse/nuxt
-- nuxt-lodash
+- [PRIMEVUE](https://primevue.org/)
+- [Nuxt Icon](https://nuxt.com/modules/icon)
+- [Nuxt Color Mode](https://color-mode.nuxtjs.org/)
+- [VueUse](https://vueuse.org/)
 
 ## Notice to modify
 
