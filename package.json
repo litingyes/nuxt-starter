@@ -43,7 +43,7 @@
     "@nuxtjs/color-mode": "3.5.2",
     "@nuxtjs/tailwindcss": "6.13.0-20241225-182546-3a7a8a0",
     "@primevue/nuxt-module": "^4.2.5",
-    "@types/node": "^22.10.5",
+    "@types/node": "^22.10.10",
     "@vueuse/core": "^12.4.0",
     "@vueuse/nuxt": "^12.4.0",
     "commitizen": "^4.3.1",
