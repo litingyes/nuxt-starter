@@ -1,47 +1,28 @@
-import Aura from '@primevue/themes/aura'
-
 export default defineNuxtConfig({
+  css: ['~/assets/css/main.css'],
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
+  devtools: {
+    enabled: true,
+  },
+  pages: {
+    pattern: ['**\/*.vue', '!**\/components\/*.vue'],
+  },
+
   modules: [
     '@vueuse/nuxt',
     'nuxt-lodash',
     '@nuxt/eslint',
-    '@nuxtjs/tailwindcss',
-    '@primevue/nuxt-module',
-    '@nuxtjs/color-mode',
     '@nuxt/icon',
+    '@nuxt/ui',
   ],
-
-  devtools: {
-    enabled: true,
-  },
-
   eslint: {
     config: {
       standalone: false,
     },
   },
-
-  primevue: {
-    options: {
-      ripple: true,
-      theme: {
-        preset: Aura,
-        options: {
-          cssLayer: {
-            name: 'primevue',
-            order: 'tailwind-base, primevue, tailwind-utilities',
-          },
-          darkModeSelector: '.dark-mode',
-        },
-      },
-    },
-    autoImport: true,
-  },
-
-  colorMode: {
-    preference: 'system',
-    fallback: 'light',
-  },
-
-  compatibilityDate: '2025-01-09',
 })

@@ -1,5 +1,4 @@
 import antfu from '@antfu/eslint-config'
-import tailwind from 'eslint-plugin-tailwindcss'
 import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(
@@ -8,5 +7,4 @@ export default withNuxt(
     formatters: true,
     vue: true,
   }),
-  ...tailwind.configs['flat/recommended'],
 )
