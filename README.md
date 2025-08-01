@@ -4,10 +4,16 @@ A nuxt project startup template
 
 ## Modules
 
-- [PRIMEVUE](https://primevue.org/)
+### Development
+
+- [Nuxt UI](https://ui.nuxt.com/)
 - [Nuxt Icon](https://nuxt.com/modules/icon)
-- [Nuxt Color Mode](https://color-mode.nuxtjs.org/)
 - [VueUse](https://vueuse.org/)
+
+### CI & CD
+
+- [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+- [commitlint](https://commitlint.js.org/)
 
 ## Notice to modify
 
