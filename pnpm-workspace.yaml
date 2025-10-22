@@ -6,4 +6,5 @@ onlyBuiltDependencies:
   - unrs-resolver
   - vue-demi
 publicHoistPattern:
-  - '*tailwindcss*'
+  - tailwindcss
+  - vue
