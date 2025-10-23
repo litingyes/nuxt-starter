@@ -15,7 +15,6 @@ export default defineNuxtConfig({
 
   modules: [
     '@vueuse/nuxt',
-    'nuxt-lodash',
     '@nuxt/eslint',
     '@nuxt/ui',
   ],
