@@ -6,5 +6,6 @@ onlyBuiltDependencies:
   - unrs-resolver
   - vue-demi
 publicHoistPattern:
+  - '@nuxt/icon'
   - tailwindcss
   - vue

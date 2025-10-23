@@ -17,7 +17,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-lodash',
     '@nuxt/eslint',
-    '@nuxt/icon',
     '@nuxt/ui',
   ],
   eslint: {
