@@ -33,7 +33,7 @@
     "@nuxt/ui": "^4.8.2",
     "@vueuse/core": "^14.0.0",
     "@vueuse/nuxt": "^14.0.0",
-    "nuxt": "^4.5.1"
+    "nuxt": "^4.5.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.0.0",
